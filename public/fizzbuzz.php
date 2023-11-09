@@ -7,7 +7,7 @@
  * @return void
  */
 
-function fizzBuzz(): void
+function FizzBuzz(): void
 {
     $myValue = "";
     $result = [];
