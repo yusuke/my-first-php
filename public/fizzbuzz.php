@@ -9,6 +9,7 @@
 
 function fizzBuzz(): void
 {
+    $myValue = "";
     $result = [];
     for ($i = 1; $i <= 100; $i++) {
         $fizz = $i % 3 == 0;
