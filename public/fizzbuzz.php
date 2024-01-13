@@ -12,7 +12,7 @@ function FizzBuzz(): void
     $myValue = "";
     $result = [];
     for ($i = 1; $i <= 100; $i++) {
-        $fizz = $i % 3 == 0;
+        $fizz = $i % 4 == 0;
         $buzz = $i % 5 == 0;
 
         if ($fizz && $buzz) {
